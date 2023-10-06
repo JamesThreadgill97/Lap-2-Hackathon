@@ -2,7 +2,7 @@
 
 const express = require('express');
 const cors = require('cors');
-const diaryRouter = require('./routers/diary');
+const diaryRouter = require('./router/diary');
 
 const app = express();
 app.use(cors());
