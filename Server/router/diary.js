@@ -1,12 +1,12 @@
 const { Router } = require('express');
-const countryController = require('../controllers/diary');
+const diaryController = require('../controllers/diary');
 
 const diaryRouter = Router();
 
-countryRouter.get('/', diary.index);
-countryRouter.get('/:name', diary.show);
-countryRouter.post('/', diary.create);
-countryRouter.patch('/:name', diary.update);
-countryRouter.delete('/:name', diary.destroy);
+diaryRouter.get('/', diary.index);
+diaryRouter.get('/:name', diary.show);
+diaryRouter.post('/', diary.create);
+diaryRouter.patch('/:name', diary.update);
+diaryRouter.delete('/:name', diary.destroy);
 
 module.exports = diaryRouter;

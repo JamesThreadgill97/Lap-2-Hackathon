@@ -2,7 +2,7 @@
 
 const express = require('express');
 const cors = require('cors');
-const countryRouter = require('./routers/diary');
+const diaryRouter = require('./routers/diary');
 
 const app = express();
 app.use(cors());
