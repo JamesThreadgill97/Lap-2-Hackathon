@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const diaryController = require('../controllers/diary');
+const diary = require('../controllers/diary');
 
 const diaryRouter = Router();
 
